@@ -16,7 +16,7 @@ import com.example.sbmvcbookapp.repository.BookRepository;
 
 @Controller
 // @RequestMapping("/book")
-public class BookController {
+public class BookController {   
 
 	@Autowired
 	private BookRepository bookRepo;
